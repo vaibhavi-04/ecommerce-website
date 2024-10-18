@@ -1,0 +1,21 @@
+.premium-button {
+    background-color: #4CAF50; /* Use a rich color */
+    color: white;              /* White text for contrast */
+    border: none;              /* Remove default border */
+    border-radius: 25px;      /* Rounded corners */
+    padding: 12px 24px;       /* Generous padding */
+    font-size: 16px;          /* Slightly larger font size */
+    font-weight: bold;         /* Bold text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+    cursor: pointer;          /* Pointer cursor */
+}
+
+.premium-button:hover {
+    background-color: #45a049; /* Darker shade on hover */
+    transform: translateY(-2px); /* Slight lift effect */
+}
+
+.premium-button:active {
+    transform: translateY(0); /* Reset lift effect on click */
+}

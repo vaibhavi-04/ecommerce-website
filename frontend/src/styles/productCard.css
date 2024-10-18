@@ -1,0 +1,37 @@
+.product-card {
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    overflow: hidden; /* Clip children that exceed the boundaries */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    transition: transform 0.3s; /* Smooth transform on hover */
+    margin: 16px; /* Space around each card */
+    max-width: 250px; /* Max width for the card */
+    text-align: center; /* Center align text */
+    background-color: #fff; /* White background */
+  }
+  
+  .product-card:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  
+  .product-image {
+    width: 100%; /* Full width */
+    height: auto; /* Maintain aspect ratio */
+    border-bottom: 1px solid #ddd; /* Bottom border for image */
+  }
+  
+  .product-card h3 {
+    font-size: 1.2em; /* Increase heading size */
+    margin: 8px 0; /* Space above and below */
+  }
+  
+  .product-card p {
+    margin: 4px 0; /* Space around paragraphs */
+    color: #555; /* Dark gray color for text */
+  }
+  
+  .product-card p:last-child {
+    font-weight: bold; /* Make price bold */
+    color: #333; /* Darker color for price */
+  }
+  

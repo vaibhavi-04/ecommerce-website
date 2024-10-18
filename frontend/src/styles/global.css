@@ -1,0 +1,18 @@
+/* Add any custom global styles here */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  /* Add this to your global.css or a specific stylesheet */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
